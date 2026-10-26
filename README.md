@@ -157,24 +157,41 @@ Clarification regarding changes to certain commands.
 
 ## What happened to the /win, /lose, and /mvp commands?
 The /win, /lose, and /mvp commands are now options within the new /multi_xp command. Additionally, you can set a timeout.
+
 _**Note**: You must specify a reason for the timeout; otherwise, the command will not be executed._
 
 <p align="left">
-  <img src="/assets/multixp.gif" alt="Descripción" width="350">
+  <img src="/assets/multixp.gif" alt="Descripción" width="300">
 </p>
 
 ## How do I add or edit a subscription?
 ### To add a subscription:
 
 Using the /subconfig command, select the following:
-- Add: Add a subscription.
-- Player: Select the player to whom you want to assign that subscription.
-- Role: Select which (sub) role will be added to that player.
-- Months: The duration of that subscription in months.
+- Add: edd a subscription.
+- Player: select the player to whom you want to assign that subscription.
+- Role: select which role [sub] will be added to that player.
+- Months: the duration of that subscription in months.
 
 <p align="left">
-  <img src="/assets/image.png" alt="Descripción" width="350">
+  <img src="/assets/image.png" alt="Descripción" width="400">
 </p>
+
+### To edit a subscription:
+
+Using the /subconfig command, select the following:
+  - Edit: edit a subscription.
+  - Player: select the player whose subscription duration you want to edit.
+  - Role: select the role [sub] you want to edit.
+  - Days: the number of days you want to add or subtract. Negative numbers subtract days.
+
+<p align="left">
+  <img src="/assets/editsub.png" alt="Descripción" width="400">
+</p>
+
+  _**Note**: To cancel or end a subscription, simply select "remove” then choose the player and role [sub] you want to remove._
+
+
 
 <!--
 ## Dashboard:
