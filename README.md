@@ -19,8 +19,8 @@ Commands
 - [Índice](#índice)
 - [Commands for administrators.](#admin-commands)
 - [Commands for mods](#mod-commands)
-- [What happened to the /win, /lose, and /mvp commands?](#What-happened-to-the-/win,-/lose,-and-/mvp-commands?)
-- [How do I add or edit a subscription?](#How-do-I-add-or-edit-a-subscription?)
+- [What happened to the /win, /lose, and /mvp commands?](#what-happened-to-the-/win,-/lose,-and-/mvp-commands?)
+- [How do I add or edit a subscription?](#how-do-i-add-or-edit-a-subscription?)
 
 # EN 
 
