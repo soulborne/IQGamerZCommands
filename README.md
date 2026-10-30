@@ -107,11 +107,11 @@ Remove a player from the queue.
 * ***/multi_xp***
 Give an optional XP multiplier to a player.
 
-* ***/undogame***
-Undo a result so you can correct it by using /game again.
-
 * ***/game***
 Score a game result.
+
+* ***/undogame***
+Undo a result so you can correct it by using /game again.
 
 * ***/clear_queue***
 This is used to clear a queue. If you enter a game ID in the [void], it will be *voided*. Therefore, that number will not be used again and will not be awarded points.
