@@ -14,6 +14,14 @@
 Commands
 </h1>
 
+## Índice
+
+- [Índice](#índice)
+- [Commands for administrators.](#admin-commands)
+- [Commands for mods](#mod-commands)
+- [What happened to the /win, /lose, and /mvp commands?](#What-happened-to-the-/win,-/lose,-and-/mvp-commands?)
+- [How do I add or edit a subscription?](#How-do-I-add-or-edit-a-subscription?)
+
 # EN 
 
 ## Admin commands:
@@ -28,7 +36,7 @@ Ban, unban or display all banned users.
 Assign, remove or view Administrator/Scorer roles. **Available on the Dashboard.**
 
 * ***/maps***
-Add, remove or display maps. **Available on the Dashboard.**
+Add, remove or display maps.
 
 * ***/ranks***
 Show ELO roles and the points for a win, loss, and MVP.
@@ -63,14 +71,13 @@ Clear the queue. With `void`, you can cancel a game without using any subscripti
 * ***/sub***
 Replaces one player in a game with another. This is not a subscription command.
 
-* ***/undogame***
-Undo a result so you can correct it by using /game again.
-
 * ***/maptier***
 Link or unlink roles from the Subscriber benefits group.
 
 * ***/subclear_admin***
 Add or remove Subclear uses for an eligible player during the current season.
+
+## Mod commands:
 
 * ***/force_register***
 A mod registers a player to participate in the matchmaking.
@@ -83,6 +90,17 @@ Remove a player from the queue.
 
 * ***/multi_xp***
 Give an optional XP multiplier to a player.
+
+* ***/undogame***
+Undo a result so you can correct it by using /game again.
+
+* ***/game***
+Score a game result.
+
+* ***/clear_queue***
+This is used to clear a queue. If you enter a game ID in the [void], it will be *voided*. Therefore, that number will not be used again and will not be awarded points.
+
+
 
 <!--
 ## Players and stats:
