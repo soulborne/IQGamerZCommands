@@ -22,6 +22,7 @@ Commands
 - [What happened to the /win, /lose, and /mvp commands?](#what-happened-to-the-win-lose-and-mvp-commands)
 - [How do I add or edit a subscription?](#how-do-i-add-or-edit-a-subscription)
 - [How do I configure V1 and V2 roles?](#how-do-i-configure-V1-and-V2-roles)
+- [How do I set up a lobby?](#how-do-i-set-up-a-lobby)
 
 # EN 
 
@@ -238,6 +239,17 @@ Using the /setclaim command, select the following:
 
 _**Note**: Depending on the “currency” the user chooses to use, it will be deducted from their stats. For example: ELO = [ 600 → 300 ] (-300)_
 
+## How do I set up a lobby?
+
+Using the /create_lobby command, select the following:
+  - Channel: the channel to which you want to assign the lobby.
+  - Multiplier: the XP multiplier assigned to that channel [1–10].
+  - Players_num: the number of players in the queue for that lobby.
+  - Teams_num: the number of teams in that lobby.
+
+<p align="left">
+  <img src="/assets/Captura de pantalla 2026-10-30 142656.png" alt="Descripción" width="400">
+</p>
 
 <!--
 ## Dashboard:
