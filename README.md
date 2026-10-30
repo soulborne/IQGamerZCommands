@@ -21,6 +21,7 @@ Commands
 - [Commands for mods](#mod-commands)
 - [What happened to the /win, /lose, and /mvp commands?](#what-happened-to-the-win-lose-and-mvp-commands)
 - [How do I add or edit a subscription?](#how-do-i-add-or-edit-a-subscription)
+- [How do I configure V1 and V2 roles?](#how-do-i-configure-V1-and-V2-roles)
 
 # EN 
 
@@ -76,6 +77,20 @@ Link or unlink roles from the Subscriber benefits group.
 
 * ***/subclear_admin***
 Add or remove Subclear uses for an eligible player during the current season.
+
+* ***/subconfig***
+Add, cancel, or change the duration of a manual subscription.
+
+* ***/subrole***
+Link one Discord role to another, which the bot will assign automatically; you can view and unlink them.
+
+* ***/setclaim***
+Configure the role and pricing in ELO and MVPs for a V1 or V2 badge by category.
+
+* ***/badgeaccess***
+Add, remove, or view the roles authorized to claim each version of a role for free.
+
+
 
 ## Mod commands:
 
@@ -209,6 +224,19 @@ Using the /subconfig command, select the following:
 
   _**Note**: To cancel or end a subscription, simply select "remove” then choose the player and role [sub] you want to remove._
 
+## How do I configure V1 and V2 roles?
+
+Using the /setclaim command, select the following:
+  - Version: choose between version 1 or 2 of a role.
+  - Role: the role that will be assigned when running **/claimbadge**
+  - Elo_cost: the ELO cost of that version of the role.
+  - MVP_cost: the MVP cost of that version of the role.
+
+<p align="left">
+  <img src="/assets/Captura de pantalla 2026-10-30 123356.png" alt="Descripción" width="400">
+</p>
+
+_**Note**: Depending on the “currency” the user chooses to use, it will be deducted from their stats. For example: ELO = [ 600 → 300 ] (-300)_
 
 
 <!--
